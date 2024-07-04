@@ -8,15 +8,15 @@ global.autoReadAll = process.env.AUTO_READ_ALL || false;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
-global.autoTyping = process.env.AUTO_TYPING || true;
+global.autoTyping = process.env.AUTO_TYPING || false;
 global.autoRecord = process.env.AUTO_RECORD || true;
 global.groupevent = process.env.GROUPEVENT || true;
-global.statusseen = process.env.STATUSSEEN || true;
-global.autoreadgc = process.env.AUTOREADGC || true;
+global.statusseen = process.env.STATUSSEEN || false;
+global.autoreadgc = process.env.AUTOREADGC || false;
 
 
 // Auth information
-global.pairNumber = "94715141596";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "94775120205";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -38,7 +38,7 @@ global.BotName = process.env.BOT_NAME || "A17";
 global.packname = process.env.PACK_NAME || "A17 Bot";
 global.author = "By: Kai";
 global.BotSourceCode = "https://github.com/Kai0071/A17";
-global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
+global.SupportGroupLink = "https://chat.whatsapp.com/HiSsoguIyEgCNya3ObJsG9";
 
 
 //
